@@ -17,7 +17,7 @@ from textwrap import dedent
 
 from ghapi.all import actions_error, actions_output, context_github, set_git_user
 
-from .common import (
+from scripts.common import (
     BOT_EMAILS,
     CURRENT_REF,
     DEPLOY_DEV_BRANCH,
