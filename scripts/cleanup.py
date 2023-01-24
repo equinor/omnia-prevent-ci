@@ -1,6 +1,6 @@
 """Remove stale PR branches."""
 
-from .common import CURRENT_REF, api
+from scripts.common import CURRENT_REF, api
 
 if __name__ == "__main__":
     stale_branches = api.git.list_matching_refs(f"heads/{ CURRENT_REF }-auto-pr-")

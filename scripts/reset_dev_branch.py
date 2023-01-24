@@ -2,6 +2,6 @@
 
 from ghapi.actions import context_github
 
-from .common import api
+from scripts.common import api
 
 print(api.git.update_ref("heads/deploy/dev", sha=context_github.sha, force=True))
