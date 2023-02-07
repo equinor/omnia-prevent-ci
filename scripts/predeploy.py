@@ -149,7 +149,7 @@ if __name__ == "__main__":
                 Make sure the conflicting PRs are merged and re-run this job.
                 If it did not help, try resetting the {DEPLOY_DEV_BRANCH} branch with
                 "Reset deploy/dev branch" action:
-                { context_github.event.repository.html_url }/actions/workflows/reset-dev-deploy-branch.yml
+                { context_github.event.repository.html_url }/actions/workflows/reset-dev-deploy-branch.yaml
                 """
             )
         )
